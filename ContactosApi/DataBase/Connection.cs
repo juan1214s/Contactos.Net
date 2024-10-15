@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using MySql.Data.MySqlClient;
 
 namespace ContactosApi.Data
 {
@@ -10,7 +12,7 @@ namespace ContactosApi.Data
 
         public Connection()
         {
-            // Obtener la cadena de conexión
+            // Obtener la cadena de conexión desde el archivo de configuración
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
@@ -21,9 +23,28 @@ namespace ContactosApi.Data
                 ?? throw new InvalidOperationException("La cadena de conexión no se pudo obtener.");
         }
 
-        public string GetSqlConnection()
+        // Método para abrir una conexión a la base de datos
+        public async Task<MySqlConnection> OpenConnectionAsync()
         {
-            return _cadenaSQL;
+            try
+            {
+                var conexion = new MySqlConnection(_cadenaSQL);
+                await conexion.OpenAsync(); // Abrir la conexión de forma asíncrona
+                return conexion; // Devolver la conexión abierta
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error al abrir la conexión con la base de datos.", ex);
+            }
+        }
+
+        // Método para cerrar la conexión (opcional)
+        public void CloseConnection(MySqlConnection conexion)
+        {
+            if (conexion != null && conexion.State == System.Data.ConnectionState.Open)
+            {
+                conexion.Close();
+            }
         }
     }
 }

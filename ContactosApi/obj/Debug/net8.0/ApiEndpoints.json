@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "ContactosApi.Controllers.Contacts.ContactsController",
+    "Method": "GetContacts",
+    "RelativePath": "api/Contacts/list/{p_userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p_userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
