@@ -13,6 +13,7 @@ namespace ContactosApi.Services.Contact
         private readonly Connection _connection;
         private readonly ILogger<GetContact> _logger;
 
+        //inyecto las dependencias 
         public GetContact(Connection connection, ILogger<GetContact> logger)
         {
             _connection = connection;

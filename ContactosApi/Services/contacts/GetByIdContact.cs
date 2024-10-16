@@ -34,7 +34,7 @@ namespace ContactosApi.Services.contact
                         cmd.CommandType = CommandType.StoredProcedure;
 
                         // Agrega los parámetros necesarios
-                        cmd.Parameters.AddWithValue("@contactoId", contactoId);
+                        cmd.Parameters.AddWithValue("contactoId", contactoId);
 
                         using (var reader = await cmd.ExecuteReaderAsync())
                         {
