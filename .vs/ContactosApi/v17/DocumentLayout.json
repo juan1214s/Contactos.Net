@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\juan1\\Documents\\ContactosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\controllers\\contacts\\getcontactbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\controllers\\contacts\\getcontactbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\controllers\\contacts\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\controllers\\contacts\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\contactsservice\\updatecontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\contactsservice\\updatecontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "ContactosApi\\Services\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs",
               "RelativeToolTip": "ContactosApi\\Services\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T01:08:28.22Z",
+              "WhenOpened": "2024-10-17T00:13:23.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetContactById.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\Contacts\\GetContactById.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Controllers\\Contacts\\GetContactById.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\Contacts\\GetContactById.cs",
-              "RelativeToolTip": "ContactosApi\\Controllers\\Contacts\\GetContactById.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Title": "UpdateController.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\Contacts\\UpdateController.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Controllers\\Contacts\\UpdateController.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\Contacts\\UpdateController.cs",
+              "RelativeToolTip": "ContactosApi\\Controllers\\Contacts\\UpdateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T00:45:05.343Z",
+              "WhenOpened": "2024-10-17T00:13:11.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Program.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Program.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Program.cs",
-              "RelativeToolTip": "ContactosApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateContactService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\contactsService\\UpdateContactService.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Services\\contactsService\\UpdateContactService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\contactsService\\UpdateContactService.cs",
+              "RelativeToolTip": "ContactosApi\\Services\\contactsService\\UpdateContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T00:40:46.122Z",
+              "WhenOpened": "2024-10-17T00:09:00.018Z",
               "EditorCaption": ""
             }
           ]

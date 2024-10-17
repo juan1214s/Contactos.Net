@@ -7,20 +7,19 @@ namespace ContactosApi.Controllers.Contacts
 {
     [ApiController]
     [Route("api/contacts")]
-    public class CreateContact : ControllerBase
+    public class CreateController : ControllerBase
     {
-        private readonly Services.contact.CreateContact _createContact;
-        private readonly ILogger<CreateContact> _logger; 
+        private readonly CreateContactService _createContactService; 
+        private readonly ILogger<CreateController> _logger;
 
-        public CreateContact(Services.contact.CreateContact createContact, ILogger<CreateContact> logger)
+        public CreateController(CreateContactService createContactService, ILogger<CreateController> logger)
         {
-            _createContact = createContact;
+            _createContactService = createContactService;
             _logger = logger;
         }
 
-        [HttpPost]
-        //con FromBody especifico q coja los datos json del request
-        public async Task<IActionResult> createContact([FromBody] ContactModel contact)
+        [HttpPost("{userId}")]
+        public async Task<IActionResult> CreateContact(int userId  ,[FromBody] CreateContactModel createContactModel) 
         {
             try
             {
@@ -31,10 +30,10 @@ namespace ContactosApi.Controllers.Contacts
                 }
 
                 // Llama al servicio para crear el contacto
-                var createContact = await _createContact.CreateContacts(contact);
+                var createdContact = await _createContactService.CreateContacts(userId, createContactModel);
 
                 // Retorna el contacto creado si todo va bien
-                return Ok(createContact);
+                return Ok(new {message =  "Se creo correctamente el contacto."});
             }
             catch (Exception ex)
             {

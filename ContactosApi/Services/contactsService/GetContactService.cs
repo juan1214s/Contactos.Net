@@ -8,13 +8,13 @@ using Microsoft.Extensions.Logging;
 
 namespace ContactosApi.Services.Contact
 {
-    public class GetContact
+    public class GetContactService
     {
         private readonly Connection _connection;
-        private readonly ILogger<GetContact> _logger;
+        private readonly ILogger<GetContactService> _logger;
 
         //inyecto las dependencias 
-        public GetContact(Connection connection, ILogger<GetContact> logger)
+        public GetContactService(Connection connection, ILogger<GetContactService> logger)
         {
             _connection = connection;
             _logger = logger;

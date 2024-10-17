@@ -7,10 +7,11 @@ namespace ContactosApi.Services
     {
         public static void AddCustomService(this IServiceCollection services)
         {
-            services.AddScoped<GetContact>();
-            services.AddScoped<CreateContact>();
-            services.AddScoped<GetByIdContact>();
-
+            services.AddScoped<GetContactService>();
+            services.AddScoped<CreateContactService>();
+            services.AddScoped<GetByIdContactService>();
+            services.AddScoped<DeleteContactService>();
+            services.AddScoped<UpdateContactService>();
         }
     }
 }

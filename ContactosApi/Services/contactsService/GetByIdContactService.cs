@@ -8,12 +8,12 @@ using System.Collections.Generic;
 
 namespace ContactosApi.Services.contact
 {
-    public class GetByIdContact
+    public class GetByIdContactService
     {
         private readonly Connection _connection;
-        private readonly ILogger<GetByIdContact> _logger;
+        private readonly ILogger<GetByIdContactService> _logger;
 
-        public GetByIdContact(Connection connection, ILogger<GetByIdContact> logger)
+        public GetByIdContactService(Connection connection, ILogger<GetByIdContactService> logger)
         {
             _logger = logger;
             _connection = connection;

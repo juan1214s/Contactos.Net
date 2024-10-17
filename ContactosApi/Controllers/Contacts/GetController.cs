@@ -13,10 +13,10 @@ namespace ContactosApi.Controllers.Contacts
     [Route("api/contacts")]
     public class ContactsController : ControllerBase
     {
-        private readonly GetContact _getContact;
+        private readonly GetContactService _getContact;
         private readonly ILogger<ContactsController> _logger;
 
-        public ContactsController(GetContact getContact, ILogger<ContactsController> logger)
+        public ContactsController(GetContactService getContact, ILogger<ContactsController> logger)
         {
             _getContact = getContact;
             _logger = logger;

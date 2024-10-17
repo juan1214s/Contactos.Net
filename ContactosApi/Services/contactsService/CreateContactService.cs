@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ContactosApi.Services.contact
 {
-    public class CreateContact
+    public class CreateContactService
     {
         private readonly Connection _connection;
-        private readonly ILogger<CreateContact> _logger;
+        private readonly ILogger<CreateContactService> _logger;
 
-        public CreateContact(Connection connection, ILogger<CreateContact> logger)
+        public CreateContactService(Connection connection, ILogger<CreateContactService> logger)
         {
             _connection = connection;
             _logger = logger;
         }
 
-        public async Task<bool> CreateContacts(ContactModel contact)
+        public async Task<bool> CreateContacts(int userId ,CreateContactModel contact)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace ContactosApi.Services.contact
                         cmd.Parameters.AddWithValue("@p_name", contact.Name);
                         cmd.Parameters.AddWithValue("@p_phone", contact.Phone);
                         cmd.Parameters.AddWithValue("@p_email", contact.Email);
-                        cmd.Parameters.AddWithValue("@p_userId", contact.UserId);
+                        cmd.Parameters.AddWithValue("@p_userId", userId);
 
                         // Ejecutar el procedimiento almacenado de forma asíncrona
                         await cmd.ExecuteNonQueryAsync();

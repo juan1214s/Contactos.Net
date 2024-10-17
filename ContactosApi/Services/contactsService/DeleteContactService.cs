@@ -1,22 +1,23 @@
 ﻿using ContactosApi.Data;
+using ContactosApi.Models.Contact;
 using Microsoft.Extensions.Logging;
 using MySql.Data.MySqlClient;
 using System.Threading.Tasks;
 
 namespace ContactosApi.Services.contact
 {
-    public class DeleteContact
+    public class DeleteContactService
     {
         private readonly Connection _connection;
-        private readonly ILogger<DeleteContact> _logger;
+        private readonly ILogger<DeleteContactService> _logger;
 
-        public DeleteContact(Connection connection, ILogger<DeleteContact> logger)
+        public DeleteContactService(Connection connection, ILogger<DeleteContactService> logger)
         {
             _connection = connection;
             _logger = logger;
         }
 
-        public async Task<bool> DeleteContactByIdAsync(int IdContacto)
+        public async Task<bool> DeleteContactByIdAsync(int Id_contacto)
         {
             try
             {
@@ -28,7 +29,7 @@ namespace ContactosApi.Services.contact
                         cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                         // Agregar el parámetro necesario para el procedimiento almacenado
-                        cmd.Parameters.AddWithValue("@Id_contacto", IdContacto);
+                        cmd.Parameters.AddWithValue("@Id_contacto", Id_contacto);
 
                         // Ejecutar el procedimiento almacenado
                         await cmd.ExecuteNonQueryAsync();

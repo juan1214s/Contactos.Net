@@ -1,15 +1,36 @@
 [
   {
-    "ContainingType": "ContactosApi.Controllers.Contacts.CreateContact",
-    "Method": "createContact",
-    "RelativePath": "api/contacts",
-    "HttpMethod": "POST",
+    "ContainingType": "ContactosApi.Controllers.Contacts.DeleteController",
+    "Method": "DeleteContact",
+    "RelativePath": "api/contacts/{Id_contacto}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+        "Name": "Id_contacto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactosApi.Controllers.Contacts.UpdateController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/contacts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
         "Name": "contact",
-        "Type": "ContactosApi.Models.Contact.ContactModel",
+        "Type": "ContactosApi.Models.Contact.UpdateContactModel",
         "IsRequired": true
       }
     ],
@@ -32,7 +53,28 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ContactosApi.Controllers.Contacts.GetContactById",
+    "ContainingType": "ContactosApi.Controllers.Contacts.CreateController",
+    "Method": "CreateContact",
+    "RelativePath": "api/contacts/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "createContactModel",
+        "Type": "ContactosApi.Models.Contact.CreateContactModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactosApi.Controllers.Contacts.GetContactByIdController",
     "Method": "GetContactId",
     "RelativePath": "api/contacts/getById{contactoId}",
     "HttpMethod": "GET",

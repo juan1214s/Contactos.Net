@@ -5,13 +5,13 @@ namespace ContactosApi.Controllers.Contacts
 {
     [ApiController]
     [Route("api/contacts")]
-    public class GetContactById : ControllerBase
+    public class GetContactByIdController : ControllerBase
     {
 
-        private readonly GetByIdContact _getByIdcontact;
-        private readonly ILogger<GetContactById> _logger;
+        private readonly GetByIdContactService _getByIdcontact;
+        private readonly ILogger<GetContactByIdController> _logger;
 
-        public GetContactById(GetByIdContact getByIdContact, ILogger<GetContactById> logger)
+        public GetContactByIdController(GetByIdContactService getByIdContact, ILogger<GetContactByIdController> logger)
         {
             _logger = logger;
             _getByIdcontact = getByIdContact;
@@ -22,15 +22,15 @@ namespace ContactosApi.Controllers.Contacts
         {
             try
             {
-                var contact = await _getByIdcontact.GetContactByIdAsync(contactoId);
+                var getcontact = await _getByIdcontact.GetContactByIdAsync(contactoId);
 
-                if (contact == null)
+                if (getcontact == null)
                 {
                     _logger.LogWarning("No se encontro ningun contacto con ese ID.");
                     return NotFound("No se encontro un contacto con ese ID.");
                 }
 
-                return Ok(contact);
+                return Ok(getcontact);
             }
             catch (Exception ex)
             {
