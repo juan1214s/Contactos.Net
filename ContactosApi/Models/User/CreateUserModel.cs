@@ -2,11 +2,8 @@
 
 namespace ContactosApi.Models.User
 {
-    public class UserModel
+    public class CreateUserModel
     {
-        public int Id { get; set; }
-
-
         [Required(ErrorMessage = "El nombre es obligatorio")]
         public required string Name { get; set; }
 
@@ -18,7 +15,6 @@ namespace ContactosApi.Models.User
         public required string Email { get; set; }
 
         [Required(ErrorMessage = "La contraseña es obligatoria")]
-        public required string Password { get; set; } 
-
+        public required string Password { get; set; }
     }
 }
