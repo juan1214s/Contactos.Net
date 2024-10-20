@@ -19,11 +19,12 @@ namespace ContactosApi.Controllers.UserController
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateUser([FromBody] CreateUserModel userModel)
+        public async Task<IActionResult> CreateUser([FromBody] UserModel userModel)
         {
             try
             {
                 var createUserResult = await _createUserService.CreateUser(userModel);
+
                 if (createUserResult)
                 {
                     return Ok(new { message = "User created successfully" });

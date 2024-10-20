@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\juan1\\Documents\\ContactosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\userservice\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\userservice\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\controllers\\usercontroller\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\controllers\\usercontroller\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\userservice\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\userservice\\updateuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateUserService.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\CreateUserService.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Services\\UserService\\CreateUserService.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\CreateUserService.cs",
-              "RelativeToolTip": "ContactosApi\\Services\\UserService\\CreateUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\UpdateUserService.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Services\\UserService\\UpdateUserService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\UpdateUserService.cs",
+              "RelativeToolTip": "ContactosApi\\Services\\UserService\\UpdateUserService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T23:54:57.061Z",
+              "WhenOpened": "2024-10-20T22:01:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateUserService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\UserController\\UpdateUserService.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Controllers\\UserController\\UpdateUserService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\UserController\\UpdateUserService.cs",
+              "RelativeToolTip": "ContactosApi\\Controllers\\UserController\\UpdateUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:57:56.519Z",
               "EditorCaption": ""
             }
           ]

@@ -32,8 +32,8 @@ namespace ContactosApi.Controllers.Contacts
                     return NotFound(new { message = "El contacto no fue encontrado." });
                 }
 
-                // Si se eliminó correctamente, retornar 204 No Content
-                return CreatedAtAction(nameof(CreateContactService), new { message = "Contacto creado exitosamente." });
+                return Ok(new { message = "Contacto eliminado exitosamente." });  // 200 OK con mensaje
+
             }
             catch (Exception ex)
             {

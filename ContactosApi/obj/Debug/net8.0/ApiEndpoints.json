@@ -90,6 +90,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ContactosApi.Controllers.UserController.GetByIdUserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/user/{Id_user}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_user",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ContactosApi.Controllers.UserController.CreateUserController",
     "Method": "CreateUser",
     "RelativePath": "api/users",
@@ -99,7 +115,44 @@
     "Parameters": [
       {
         "Name": "userModel",
-        "Type": "ContactosApi.Models.User.CreateUserModel",
+        "Type": "ContactosApi.Models.User.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactosApi.Controllers.UserController.DeleteUserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/users/{Id_user}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id_user",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactosApi.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userModel",
+        "Type": "ContactosApi.Models.User.UserModel",
         "IsRequired": true
       }
     ],

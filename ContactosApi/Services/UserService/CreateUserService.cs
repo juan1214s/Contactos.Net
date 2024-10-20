@@ -15,7 +15,7 @@ namespace ContactosApi.Services.UserService
             _logger = logger;
         }
 
-        public async Task<bool> CreateUser(CreateUserModel createUserModel)
+        public async Task<bool> CreateUser(UserModel createUserModel)
         {
             try
             {
