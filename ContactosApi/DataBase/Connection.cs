@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 
-namespace ContactosApi.Data
+namespace ContactosApi.DataBase
 {
     public class Connection
     {

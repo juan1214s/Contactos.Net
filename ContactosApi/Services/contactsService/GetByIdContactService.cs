@@ -1,10 +1,10 @@
-﻿using ContactosApi.Data;
-using ContactosApi.Models.Contact;
+﻿using ContactosApi.Models.Contact;
 using MySql.Data.MySqlClient;
 using System.Data;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using ContactosApi.DataBase;
 
 namespace ContactosApi.Services.contact
 {

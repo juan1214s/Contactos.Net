@@ -1,7 +1,7 @@
-﻿using ContactosApi.Data;
-using ContactosApi.Models.User;
+﻿using ContactosApi.Models.User;
 using MySql.Data.MySqlClient;
 using Microsoft.Extensions.Logging;
+using ContactosApi.DataBase;
 
 namespace ContactosApi.Services.UserService
 {

@@ -90,6 +90,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ContactosApi.Controllers.SeekerController.SeekerController",
+    "Method": "Seeker",
+    "RelativePath": "api/seeker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ContactosApi.Controllers.UserController.GetByIdUserController",
     "Method": "GetUserById",
     "RelativePath": "api/user/{Id_user}",

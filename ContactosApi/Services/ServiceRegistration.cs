@@ -1,6 +1,8 @@
 ﻿using ContactosApi.Services.contact;
 using ContactosApi.Services.Contact;
 using ContactosApi.Services.UserService;
+using ContactosApi.Services.SeekerService;
+
 
 namespace ContactosApi.Services
 {
@@ -20,6 +22,9 @@ namespace ContactosApi.Services
             services.AddScoped<DeleteUserService>();
             services.AddScoped<GetUserByIdService>();
             services.AddScoped<UpdateUserService>();
+
+            //
+            services.AddScoped<SeekerServices>();
         }
     }
 }
