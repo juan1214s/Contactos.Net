@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+fcvivwTwnY=",
+  "dgSpecHash": "ZMfT6+2mY9s=",
   "success": true,
   "projectFilePath": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\ContactosApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\juan1\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\juan1\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\juan1\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
     "C:\\Users\\juan1\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",

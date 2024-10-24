@@ -2,6 +2,9 @@
 using ContactosApi.Services.Contact;
 using ContactosApi.Services.UserService;
 using ContactosApi.Services.SeekerService;
+using System.Configuration;
+using Microsoft.Extensions.Configuration;
+using ContactosApi.Bcrypt;
 
 
 namespace ContactosApi.Services
@@ -10,6 +13,7 @@ namespace ContactosApi.Services
     {
         public static void AddCustomService(this IServiceCollection services)
         {
+
             //Contactos
             services.AddScoped<GetContactService>();
             services.AddScoped<CreateContactService>();
@@ -23,8 +27,11 @@ namespace ContactosApi.Services
             services.AddScoped<GetUserByIdService>();
             services.AddScoped<UpdateUserService>();
 
-            //
+            //Buscador
             services.AddScoped<SeekerServices>();
+
+            //Encriptar la contraseña
+            services.AddSingleton<PasswordHasher>();
         }
     }
 }

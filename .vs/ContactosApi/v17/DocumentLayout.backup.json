@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\juan1\\Documents\\ContactosApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\controllers\\seekercontroller\\seekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\controllers\\seekercontroller\\seekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\seekerservice\\seekerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\seekerservice\\seekerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\contactsservice\\createcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\contactsservice\\createcontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\services\\userservice\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\services\\userservice\\createuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|c:\\users\\juan1\\documents\\contactosapi\\contactosapi\\bcript\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6188FA7D-590C-43A3-A66C-60981C12ED20}|ContactosApi\\ContactosApi.csproj|solutionrelative:contactosapi\\bcript\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,75 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeekerServices.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\SeekerService\\SeekerServices.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Services\\SeekerService\\SeekerServices.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\SeekerService\\SeekerServices.cs*",
-              "RelativeToolTip": "ContactosApi\\Services\\SeekerService\\SeekerServices.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Services\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs*",
+              "RelativeToolTip": "ContactosApi\\Services\\ServiceRegistration.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T23:11:16.869Z",
+              "WhenOpened": "2024-10-24T23:18:45.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUserService.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\CreateUserService.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Services\\UserService\\CreateUserService.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\UserService\\CreateUserService.cs",
+              "RelativeToolTip": "ContactosApi\\Services\\UserService\\CreateUserService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T22:53:31.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Services\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\ServiceRegistration.cs",
-              "RelativeToolTip": "ContactosApi\\Services\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Bcript\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "ContactosApi\\Bcript\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Bcript\\PasswordHasher.cs",
+              "RelativeToolTip": "ContactosApi\\Bcript\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:48:48.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeekerController.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\SeekerController\\SeekerController.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Controllers\\SeekerController\\SeekerController.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Controllers\\SeekerController\\SeekerController.cs*",
-              "RelativeToolTip": "ContactosApi\\Controllers\\SeekerController\\SeekerController.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T22:41:05.825Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "2e7869fa-2d43-4871-b562-bed2c2dd6e75",
-        "Display": 0,
-        "X": 0,
-        "Y": 0,
-        "Width": 1280,
-        "Height": 1032,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateContactService.cs",
-              "DocumentMoniker": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\contactsService\\CreateContactService.cs",
-              "RelativeDocumentMoniker": "ContactosApi\\Services\\contactsService\\CreateContactService.cs",
-              "ToolTip": "C:\\Users\\juan1\\Documents\\ContactosApi\\ContactosApi\\Services\\contactsService\\CreateContactService.cs",
-              "RelativeToolTip": "ContactosApi\\Services\\contactsService\\CreateContactService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T23:06:18.142Z",
+              "WhenOpened": "2024-10-24T22:32:31.393Z",
               "EditorCaption": ""
             }
           ]

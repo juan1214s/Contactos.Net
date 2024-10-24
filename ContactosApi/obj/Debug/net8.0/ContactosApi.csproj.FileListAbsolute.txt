@@ -48,3 +48,4 @@ C:\Users\juan1\Documents\ContactosApi\ContactosApi\obj\Debug\net8.0\refint\Conta
 C:\Users\juan1\Documents\ContactosApi\ContactosApi\obj\Debug\net8.0\ContactosApi.pdb
 C:\Users\juan1\Documents\ContactosApi\ContactosApi\obj\Debug\net8.0\ContactosApi.genruntimeconfig.cache
 C:\Users\juan1\Documents\ContactosApi\ContactosApi\obj\Debug\net8.0\ref\ContactosApi.dll
+C:\Users\juan1\Documents\ContactosApi\ContactosApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
